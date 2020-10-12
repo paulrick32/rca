@@ -1,0 +1,6 @@
+
+<IfModule mod_rewrite.c>
+  RewriteEngine On
+
+  RewriteRule ^servicos/?$ /produtos.html [NC,L]
+</IfModule>
